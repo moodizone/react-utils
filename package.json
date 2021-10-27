@@ -7,10 +7,15 @@
     "email": "moodizone.org@gmail.com",
     "url": "https://www.PayPing.ir"
   },
+  "script": {},
   "dependencies": {
     "react": "^17.0.2",
-    "@types/react": "^17.0.20",
-    "typescript": "^4.4.3",
     "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
   }
 }
