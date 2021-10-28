@@ -15,12 +15,14 @@ type ReadyState = "inProgress" | "finished" | "idle";
  * @example
  * [isReady] = useDebounce(()=>fetchAPI(searchTerm), 300 , [searchTerm])
  */
+type FunctionType = () => unknown;
+
 export default function useDebounce(
-  fn: Function,
+  fn: FunctionType,
   debounce = 0,
   deps: React.DependencyList
 ) {
-  const callback = React.useRef<Function>(fn);
+  const callback = React.useRef<FunctionType>(fn);
   const timeout = React.useRef<ReturnType<typeof setTimeout>>();
   const ready = React.useRef<ReadyState>("idle");
   const isReady = React.useCallback(() => ready.current, []);
