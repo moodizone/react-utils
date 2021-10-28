@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "noEmit": true,
+    "target": "es5",
+    "module": "ESNext",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+
+    // generates declaration files
+    "declaration": true,
+
+    // true import React from "react"
+    // false import * as React from "react
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"]
+}
