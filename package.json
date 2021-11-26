@@ -1,6 +1,6 @@
 {
   "name": "@moodizone/react-utils",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bunch of utils for react based applications",
   "license": "MIT",
   "main": "dist/index.js",
