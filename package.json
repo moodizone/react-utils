@@ -20,7 +20,6 @@
     "url": "https://github.com/moodizone/react-utils"
   },
   "scripts": {
-    "build": "",
     "lint": "eslint . --ext .tsx,.jsx,.js,ts,.json --ignore-path .gitignore",
     "prettier": "prettier \"**.(js|ts|tsx|jsx|json)\" --ignore-path .gitignore",
     "check-types": "tsc",
