@@ -8,9 +8,9 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "project": "./tsconfig.json",
     "sourceType": "module"
   },
+  "plugins": ["react", "react-hooks"],
   "extends": [
     "eslint:recommended",
     "eslint-config-prettier",
